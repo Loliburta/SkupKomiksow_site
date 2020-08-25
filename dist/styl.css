@@ -1,0 +1,125 @@
+.nav-masthead .nav-link {
+    padding: .25rem 0;
+    font-weight: 900;
+    color: rgba(255, 255, 255, .5);
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+    margin-right: 40px;
+    margin-bottom: 5px;
+  }
+  
+  .nav-masthead .nav-link:hover,
+  .nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+  }
+  
+  .nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+  }
+  
+  html, body, #wrapper {
+    width:100%;
+    height: 100%;
+  
+  }
+  
+  #wrapper {
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+    background-color: rgb(21, 32, 43);
+    overflow: auto;
+  }
+  
+  html {
+  box-sizing: border-box;
+  }
+  *, *:before, *:after {
+  box-sizing: inherit;
+  }
+  body { margin: 0; }
+  .frame {
+  display: flex;
+  }
+  .frame* {
+  flex: 1 1 70%;
+  }
+  
+  canvas {
+  width: 100%;
+  height: 100%;
+  }
+  
+  @media (min-width: 0px){
+   .phone_margin {
+     margin-left: 2%;
+     margin-right: 2%;
+   }
+    .phone_margin1 {
+     margin-left: 1%;
+     margin-right: 1%;
+   }
+    .phone_margin_left{
+        margin-left: 9%;
+    }
+    .frame{
+        width: 100vw;
+        height: 40vh;
+    }
+    .phone_margin_bottom{
+        margin-bottom: -19vh;
+        left: -5%;
+  
+    }
+    .phone_im_out_of_names{
+        bottom: 25%;
+    }
+  
+  }
+  
+  @media (min-width: 600px){
+    .frame{
+        width: 100vw;
+        height: 45vh;
+    }
+    .tablet_margin_bottom{
+        margin-bottom: -16vh;
+        left: -16%;
+  
+    }
+    .tablet_im_out_of_names{
+        bottom: 19%;
+    }
+  
+    .tablet_margin {
+     margin-left: 10%;
+     margin-right: 10%;
+   }
+    .tablet_margin1 {
+     margin-left: 5%;
+     margin-right: 5%;
+   }
+  
+  }
+  
+  
+  @media (min-width:1380px) {
+   .pc_margin {
+     margin-left: 32%;
+     margin-right: 32%;
+   }
+   .pc_margin_left{
+       margin-left: 3.5em;
+   }
+   .frame{
+       width: 30vw;
+       height: 60vh;
+   }
+   .pc_margin_bottom{
+       margin-bottom: -62vh;
+       left: 100%;
+   }
+   .pc_im_out_of_names{
+       bottom: 25%;
+       right: 10%;
+   }
+  }
