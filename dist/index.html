@@ -10,23 +10,6 @@
 
         gtag('config', 'UA-176411258-1');
       </script>
-      <!-- Znaczniki JSON-LD wygenerowane przez Asystenta do oznaczania danych Google. -->
-      <script type="application/ld+json">
-      {
-        "@context" : "http://schema.org",
-        "@type" : "LocalBusiness",
-        "name" : "SkupKomiksow.pl",
-        "telephone" : "730 450 230",
-        "email" : "skupkomiksow@o2.pl",
-        "address" : {
-          "@type" : "PostalAddress",
-          "addressLocality" : "Warszawa",
-          "addressRegion" : "Mazowieckie",
-          "addressCountry" : "Polska"
-        },
-        "url" : "https://www.skupkomiksow.pl/"
-      }
-      </script>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -50,19 +33,19 @@
   </head>
 
 
-<div id="wrapper">
+<div itemscope itemtype="http://schema.org/LocalBusiness"  id="wrapper">
     <header class="mb-5" style="text-align: center;background-color: rgb(17, 28, 38); text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);">
         <nav class=" nav nav-masthead " style="background-color: rgb(17, 28, 38); justify-content: center;box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);">
-            <h1 style="color: #fff; font-family: 'Passion One',serif" class="mt-2">SkupKomiksow.pl</h1>
+            <h1 itemprop="name" style="color: #fff; font-family: 'Passion One',serif" class="mt-2">SkupKomiksow.pl</h1>
             <a id="stronaGlownaNapis" class="nav-link active phone_margin_left pc_margin_left mt-1" style="font-size: min(max(21px, 6vw), 30px); cursor: pointer;" >Strona Główna</a>
             <a id="kontaktNapis" class="nav-link mt-1" style="font-size: min(max(21px, 6vw), 30px);cursor: pointer;" >Kontakt</a>
         </nav>
     </header>
 
     <body style="text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5)">
-        <div class="mt-4 pc_margin phone_margin1 tablet_margin1" style=" text-align: center; color: #fff">
-            <h1 style="display: inline; font-weight: bold">Skup komiksów Warszawa </h1><h4 style="display: inline;font-weight: bold">i cała Polska</h4><h1 style="font-weight: bold">SkupKomiksów.pl</h1>
-        </div>
+        <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="mt-4 pc_margin phone_margin1 tablet_margin1" style=" text-align: center; color: #fff">
+            <h1 style="display: inline; font-weight: bold">Skup komiksów <span itemprop="addressLocality"> Warszawa </span> </h1><h4 style="display: inline;font-weight: bold">i cała <span itemprop="addressCountry">Polska</span></h4><h1 style="font-weight: bold">SkupKomiksów.pl</h1>
+        <meta itemprop="addressRegion" content="Mazowieckie"></div>
         <div style="text-align: left; color: #fff; font-size: 1.4rem; font-weight: 300" class="pc_margin phone_margin tablet_margin">
             <div class="loading" id="js-loader"><div class="loader"></div></div>
             <div id="canvas_divID" style="position:relative" class="frame pc_margin_bottom phone_margin_bottom tablet_margin_bottom">
@@ -77,12 +60,16 @@
                 <li style="font-size: min(max(19px, 4vw), 22px)">Natychmiastowa płatność gotówką</li>
                 <li style="font-size: min(max(19px, 4vw), 22px)">Dojazd do klienta na terenie Warszawy i okolic </li>
             </ul>
-            <p class="mt-5" style="font-size: min(max(19px, 4vw), 22.5px)">Skup komiksów Polska to również my, istnieje możliwość sprzedaży komiksów w całym kraju za pośrednictwem Poczty Polskiej lub firmy kurierskiej. Jeśli zastanawiasz się gdzie sprzedać komiksy to nie zwlekaj i skontaktuj się z nami.</p>
+            <p class="mt-5" style="font-size: min(max(19px, 4vw), 22.5px)">Skup komiksów Polska to również my, istnieje możliwość sprzedaży komiksów w całym kraju za pośrednictwem Poczty Polskiej lub firmy kurierskiej. Jeśli zastanawiasz się gdzie sprzedać komiksy to nie zwlekaj i skontaktuj się z nami</p>
             </div>
         </div>
-
+    <meta itemprop="telephone" content="730 450 230">
+    <meta itemprop="email" content="skupkomiksow@o2.pl">
+    <meta itemprop="url" content="https://www.skupkomiksow.pl/">
     </body>
 </div>
+  <footer style="background-color: rgb(17, 28, 38);"></footer>
+
 <!-- The main Three.js file -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/108/three.min.js'></script>
 
